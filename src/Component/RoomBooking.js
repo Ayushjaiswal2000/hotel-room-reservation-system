@@ -223,6 +223,20 @@ const RoomBooking = () => {
                     <h2 className="text-2xl font-semibold mb-4">
                       Available Rooms
                     </h2>
+                    <div className="flex items-center mb-6">
+                      <div className="flex items-center mr-4">
+                        <span className="inline-block w-4 h-4 bg-green-500 rounded-full mr-2"></span>
+                        <span className="text-gray-700 dark:text-gray-300">
+                          Available
+                        </span>
+                      </div>
+                      <div className="flex items-center">
+                        <span className="inline-block w-4 h-4 bg-red-500 rounded-full mr-2"></span>
+                        <span className="text-gray-700 dark:text-gray-300">
+                          Occupied
+                        </span>
+                      </div>
+                    </div>
                     <div
                       id="availableRooms"
                       className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4"
